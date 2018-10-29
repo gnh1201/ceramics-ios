@@ -1,0 +1,29 @@
+<ion-view class="contact-view">
+  <ion-nav-title>
+    <span>Contact</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="contact-content">
+      <div class="">
+        <p>
+          Korea Institute of Ceramic engineering and technology
+        </p>
+        <p>
+          email: kicet@kicet.re.kr
+        </p>
+      </div>
+      <div class="contact-details-item">
+        <h4>Address</h4>
+        <div class="featured">Korea Institute of Ceramic engineering and technology</div>
+        <div>101, Soho-ro (15-14, Chungmugong-dong), Jinju-si, Gyeongsangnam-do</div>
+        <div>Republic of Korea.</div>
+      </div>
+      <div class="send-email">
+        <button class="button button-outline button-block featured" ng-controller="EmailSenderCtrl" ng-click="sendContactMail()">
+          Send us an email
+        </button>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
